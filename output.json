@@ -1,259 +1,19 @@
 {
   "wd": [
     {
-      "product_name": "HCeG-50K12 (eGLASS 50\" GLASS WHITEBOARD FOR K12)",
+      "product_name": "SPARK-II-SNAP (HOVERCAM HCSS-II SPARK II BUY BACK)",
       "base_fields": {
-        "QTY_In_Stock": "3",
-        "GDI_Purchase_Price": "552.42",
-        "Inventory_Value": "1657.26",
-        "Weekly_Sales": "1",
-        "Open_Sales_Orders": "99",
-        "Open_Purchase_Orders": "150",
-        "Current_Inventory": "-96"
-      },
-      "calculated_fields": {
-        "12m_avg_sales": 0.5714285714285714,
-        "run_rate": 5.25
-      }
-    },
-    {
-      "product_name": "DUO-SNAP (HOVERCAM HCD DUO BUY BACK)",
-      "base_fields": {
-        "QTY_In_Stock": "99",
-        "GDI_Purchase_Price": "252.41",
-        "Inventory_Value": "24988.59",
-        "Weekly_Sales": "0",
-        "Open_Sales_Orders": "0",
-        "Open_Purchase_Orders": "52",
-        "Current_Inventory": "99"
-      },
-      "calculated_fields": {
-        "12m_avg_sales": 0.2857142857142857,
-        "run_rate": 346.5
-      }
-    },
-    {
-      "product_name": "HCeG-50K12 (eGLASS 50\" GLASS WHITEBOARD FOR K12)",
-      "base_fields": {
-        "QTY_In_Stock": "0",
-        "GDI_Purchase_Price": "252.41",
-        "Inventory_Value": "0",
-        "Weekly_Sales": "0",
-        "Open_Sales_Orders": "0",
-        "Open_Purchase_Orders": "0",
-        "Current_Inventory": "0"
-      },
-      "calculated_fields": {
-        "12m_avg_sales": 0.0,
-        "run_rate": 0.0
-      }
-    },
-    {
-      "product_name": "HCS8+ (HOVERCAM SOLO 8 PLUS)",
-      "base_fields": {
-        "QTY_In_Stock": "3467",
-        "GDI_Purchase_Price": "252.41",
-        "Inventory_Value": "874801.47",
-        "Weekly_Sales": "88",
-        "Open_Sales_Orders": "0",
-        "Open_Purchase_Orders": "2000",
-        "Current_Inventory": "3467"
-      },
-      "calculated_fields": {
-        "12m_avg_sales": 194.0,
-        "run_rate": 17.871134020618555
-      }
-    },
-    {
-      "product_name": "eG-S-PO-SNAP (PODIUM FOR EGLASS - BUY BACK)",
-      "base_fields": {
-        "QTY_In_Stock": "0",
-        "GDI_Purchase_Price": "552.42",
-        "Inventory_Value": "1657.26",
-        "Weekly_Sales": "1",
-        "Open_Sales_Orders": "99",
-        "Open_Purchase_Orders": "150",
-        "Current_Inventory": "-96"
-      },
-      "calculated_fields": {
-        "12m_avg_sales": 0.8571428571428571,
-        "run_rate": 0.0
-      }
-    },
-    {
-      "product_name": "HCO2-SNAP (HOVERCAM ORBIT V2.0 (PATHWAY BUYBACK))",
-      "base_fields": {
-        "QTY_In_Stock": "0",
-        "GDI_Purchase_Price": "0",
-        "Inventory_Value": "0",
-        "Weekly_Sales": "0",
-        "Open_Sales_Orders": "0",
-        "Open_Purchase_Orders": "0",
-        "Current_Inventory": "0"
-      },
-      "calculated_fields": {
-        "12m_avg_sales": 0.0,
-        "run_rate": 0.0
-      }
-    },
-    {
-      "product_name": "HCeG-35 (eGlass 35\" GLASS WHITEBOARD.)",
-      "base_fields": {
-        "QTY_In_Stock": "-1",
-        "GDI_Purchase_Price": "552.42",
-        "Inventory_Value": "-552.42",
-        "Weekly_Sales": "0",
-        "Open_Sales_Orders": "0",
-        "Open_Purchase_Orders": "0",
-        "Current_Inventory": "-1"
-      },
-      "calculated_fields": {
-        "12m_avg_sales": 0.7142857142857143,
-        "run_rate": -1.4
-      }
-    },
-    {
-      "product_name": "HCEG-50 (eGLASS 50\" GLASS WHITEBOARD.)",
-      "base_fields": {
-        "QTY_In_Stock": "0",
-        "GDI_Purchase_Price": "789.57",
-        "Inventory_Value": "0",
-        "Weekly_Sales": "0",
-        "Open_Sales_Orders": "5",
-        "Open_Purchase_Orders": "0",
-        "Current_Inventory": "-5"
-      },
-      "calculated_fields": {
-        "12m_avg_sales": 0.0,
-        "run_rate": 0.0
-      }
-    },
-    {
-      "product_name": "PXP (HOVERCAM PILOT X PODIUM WITHOUT TABLET)",
-      "base_fields": {
-        "QTY_In_Stock": "203",
-        "GDI_Purchase_Price": "252.41",
-        "Inventory_Value": "51239.23",
-        "Weekly_Sales": "0",
-        "Open_Sales_Orders": "4",
-        "Open_Purchase_Orders": "48",
-        "Current_Inventory": "199"
-      },
-      "calculated_fields": {
-        "12m_avg_sales": 0.16666666666666666,
-        "run_rate": 1218.0
-      }
-    },
-    {
-      "product_name": "SPARK-II (HOVERCAM HCSS-II SOLO SPARK II (FOR CHROMEBOOKS))",
-      "base_fields": {
-        "QTY_In_Stock": "2360",
+        "QTY_In_Stock": "-40",
         "GDI_Purchase_Price": "100",
-        "Inventory_Value": "236000",
-        "Weekly_Sales": "43",
-        "Open_Sales_Orders": "0",
-        "Open_Purchase_Orders": "0",
-        "Current_Inventory": "2360"
-      },
-      "calculated_fields": {
-        "12m_avg_sales": 22.0,
-        "run_rate": 107.27272727272727
-      }
-    },
-    {
-      "product_name": "SOLO8+-SNAP (HOVERCAM HCS8+ BUY BACK)",
-      "base_fields": {
-        "QTY_In_Stock": "0",
-        "GDI_Purchase_Price": "252.41",
-        "Inventory_Value": "0",
+        "Inventory_Value": "-4000",
         "Weekly_Sales": "0",
         "Open_Sales_Orders": "0",
         "Open_Purchase_Orders": "0",
-        "Current_Inventory": "0"
+        "Current_Inventory": "-40"
       },
       "calculated_fields": {
-        "12m_avg_sales": 10.0,
-        "run_rate": 0.0
-      }
-    },
-    {
-      "product_name": "eGLASS-35 (eGlass 35\" GLASS **B-STOCK** (HCeG-35))",
-      "base_fields": {
-        "QTY_In_Stock": "0",
-        "GDI_Purchase_Price": "552.42",
-        "Inventory_Value": "0",
-        "Weekly_Sales": "0",
-        "Open_Sales_Orders": "0",
-        "Open_Purchase_Orders": "0",
-        "Current_Inventory": "0"
-      },
-      "calculated_fields": {
-        "12m_avg_sales": 0.0,
-        "run_rate": 0.0
-      }
-    },
-    {
-      "product_name": "PXP B STOCK (HOVERCAM PILOT X PODIUM WITHOUT TABLET - B STOCK)",
-      "base_fields": {
-        "QTY_In_Stock": "31",
-        "GDI_Purchase_Price": "0",
-        "Inventory_Value": "0",
-        "Weekly_Sales": "0",
-        "Open_Sales_Orders": "0",
-        "Open_Purchase_Orders": "0",
-        "Current_Inventory": "31"
-      },
-      "calculated_fields": {
-        "12m_avg_sales": 0.0,
-        "run_rate": 0.0
-      }
-    },
-    {
-      "product_name": "HCO2 (HOVERCAM ORBIT V2.0)",
-      "base_fields": {
-        "QTY_In_Stock": "766",
-        "GDI_Purchase_Price": "100",
-        "Inventory_Value": "76600",
-        "Weekly_Sales": "1",
-        "Open_Sales_Orders": "0",
-        "Open_Purchase_Orders": "0",
-        "Current_Inventory": "766"
-      },
-      "calculated_fields": {
-        "12m_avg_sales": 34.714285714285715,
-        "run_rate": 22.065843621399175
-      }
-    },
-    {
-      "product_name": "HCB-USBC (HOVERCAM BEAMIO 4K TRANSMITTER AND RECEIVER WITH WIRELESS INCLUDES USB-...)",
-      "base_fields": {
-        "QTY_In_Stock": "99",
-        "GDI_Purchase_Price": "252.41",
-        "Inventory_Value": "24988.59",
-        "Weekly_Sales": "0",
-        "Open_Sales_Orders": "0",
-        "Open_Purchase_Orders": "52",
-        "Current_Inventory": "99"
-      },
-      "calculated_fields": {
-        "12m_avg_sales": 0.2857142857142857,
-        "run_rate": 346.5
-      }
-    },
-    {
-      "product_name": "HCPXWT- i5 (HOVERCAM PILOT X TABLET (i5) ONLY)",
-      "base_fields": {
-        "QTY_In_Stock": "205",
-        "GDI_Purchase_Price": "252.41",
-        "Inventory_Value": "51744.05",
-        "Weekly_Sales": "0",
-        "Open_Sales_Orders": "0",
-        "Open_Purchase_Orders": "0",
-        "Current_Inventory": "205"
-      },
-      "calculated_fields": {
-        "12m_avg_sales": 0.2857142857142857,
-        "run_rate": 717.5
+        "12m_avg_sales": 6.666666666666667,
+        "run_rate": -6.0
       }
     },
     {
@@ -273,19 +33,99 @@
       }
     },
     {
-      "product_name": "HCPX-I5 (HOVERCAM PILOT X WL WINDOWS 10 TABLET, I5 PROCESSOR, 4K, 8 GB RAM, 256 G...)",
+      "product_name": "HCS8+ (HOVERCAM SOLO 8 PLUS)",
       "base_fields": {
-        "QTY_In_Stock": "272",
+        "QTY_In_Stock": "3467",
         "GDI_Purchase_Price": "252.41",
-        "Inventory_Value": "68655.52",
-        "Weekly_Sales": "2",
+        "Inventory_Value": "874801.47",
+        "Weekly_Sales": "88",
         "Open_Sales_Orders": "0",
-        "Open_Purchase_Orders": "0",
-        "Current_Inventory": "272"
+        "Open_Purchase_Orders": "2000",
+        "Current_Inventory": "3467"
       },
       "calculated_fields": {
-        "12m_avg_sales": 9.714285714285714,
-        "run_rate": 28.000000000000004
+        "12m_avg_sales": 194.0,
+        "run_rate": 17.871134020618555
+      }
+    },
+    {
+      "product_name": "HCeG-35 (eGlass 35\" GLASS WHITEBOARD.)",
+      "base_fields": {
+        "QTY_In_Stock": "-1",
+        "GDI_Purchase_Price": "552.42",
+        "Inventory_Value": "-552.42",
+        "Weekly_Sales": "0",
+        "Open_Sales_Orders": "0",
+        "Open_Purchase_Orders": "0",
+        "Current_Inventory": "-1"
+      },
+      "calculated_fields": {
+        "12m_avg_sales": 0.7142857142857143,
+        "run_rate": -1.4
+      }
+    },
+    {
+      "product_name": "HCeG-50K12 (eGLASS 50\" GLASS WHITEBOARD FOR K12)",
+      "base_fields": {
+        "QTY_In_Stock": "3",
+        "GDI_Purchase_Price": "552.42",
+        "Inventory_Value": "1657.26",
+        "Weekly_Sales": "1",
+        "Open_Sales_Orders": "99",
+        "Open_Purchase_Orders": "150",
+        "Current_Inventory": "-96"
+      },
+      "calculated_fields": {
+        "12m_avg_sales": 0.5714285714285714,
+        "run_rate": 5.25
+      }
+    },
+    {
+      "product_name": "PILOTX-I5-SNAP (HOVERCAM HCPX-i5 PILOT X , I5 PROCESSOR - SNAP BUY-BACK)",
+      "base_fields": {
+        "QTY_In_Stock": "0",
+        "GDI_Purchase_Price": "252.41",
+        "Inventory_Value": "0",
+        "Weekly_Sales": "0",
+        "Open_Sales_Orders": "0",
+        "Open_Purchase_Orders": "0",
+        "Current_Inventory": "0"
+      },
+      "calculated_fields": {
+        "12m_avg_sales": 0.0,
+        "run_rate": 0.0
+      }
+    },
+    {
+      "product_name": "SPARK-II (HOVERCAM HCSS-II SOLO SPARK II (FOR CHROMEBOOKS))",
+      "base_fields": {
+        "QTY_In_Stock": "2360",
+        "GDI_Purchase_Price": "100",
+        "Inventory_Value": "236000",
+        "Weekly_Sales": "43",
+        "Open_Sales_Orders": "0",
+        "Open_Purchase_Orders": "0",
+        "Current_Inventory": "2360"
+      },
+      "calculated_fields": {
+        "12m_avg_sales": 22.0,
+        "run_rate": 107.27272727272727
+      }
+    },
+    {
+      "product_name": "HCEG-50 (eGLASS 50\" GLASS WHITEBOARD.)",
+      "base_fields": {
+        "QTY_In_Stock": "0",
+        "GDI_Purchase_Price": "789.57",
+        "Inventory_Value": "0",
+        "Weekly_Sales": "0",
+        "Open_Sales_Orders": "5",
+        "Open_Purchase_Orders": "0",
+        "Current_Inventory": "-5"
+      },
+      "calculated_fields": {
+        "12m_avg_sales": 0.0,
+        "run_rate": 0.0
       }
     },
     {
@@ -305,31 +145,63 @@
       }
     },
     {
-      "product_name": "eGLASS-50 (eGlass 50\" GLASS **B-STOCK** (HCeG-50))",
+      "product_name": "HCB-USBC (HOVERCAM BEAMIO 4K TRANSMITTER AND RECEIVER WITH WIRELESS INCLUDES USB-...)",
+      "base_fields": {
+        "QTY_In_Stock": "99",
+        "GDI_Purchase_Price": "252.41",
+        "Inventory_Value": "24988.59",
+        "Weekly_Sales": "0",
+        "Open_Sales_Orders": "0",
+        "Open_Purchase_Orders": "52",
+        "Current_Inventory": "99"
+      },
+      "calculated_fields": {
+        "12m_avg_sales": 0.2857142857142857,
+        "run_rate": 346.5
+      }
+    },
+    {
+      "product_name": "HCD* (HOVERCAM DUO - 12MP, USB 3.0 & HDMI OUTPUT)",
       "base_fields": {
         "QTY_In_Stock": "0",
-        "GDI_Purchase_Price": "789.57",
+        "GDI_Purchase_Price": "0",
+        "Inventory_Value": "0",
+        "Weekly_Sales": "0",
+        "Open_Sales_Orders": "321",
+        "Open_Purchase_Orders": "1000",
+        "Current_Inventory": "-321"
+      },
+      "calculated_fields": {
+        "12m_avg_sales": 39.714285714285715,
+        "run_rate": 0.0
+      }
+    },
+    {
+      "product_name": "DUO-SNAP (HOVERCAM HCD DUO BUY BACK)",
+      "base_fields": {
+        "QTY_In_Stock": "0",
+        "GDI_Purchase_Price": "0",
+        "Inventory_Value": "0",
+        "Weekly_Sales": "0",
+        "Open_Sales_Orders": "45",
+        "Open_Purchase_Orders": "0",
+        "Current_Inventory": "-45"
+      },
+      "calculated_fields": {
+        "12m_avg_sales": 4.0,
+        "run_rate": 0.0
+      }
+    },
+    {
+      "product_name": "eGLASS-35 (eGlass 35\" GLASS **B-STOCK** (HCeG-35))",
+      "base_fields": {
+        "QTY_In_Stock": "0",
+        "GDI_Purchase_Price": "552.42",
         "Inventory_Value": "0",
         "Weekly_Sales": "0",
         "Open_Sales_Orders": "0",
         "Open_Purchase_Orders": "0",
         "Current_Inventory": "0"
-      },
-      "calculated_fields": {
-        "12m_avg_sales": 0.0,
-        "run_rate": 0.0
-      }
-    },
-    {
-      "product_name": "BEAMIO-USBC (HOVERCAM HCB BEAMIO USBC - B STOCK)",
-      "base_fields": {
-        "QTY_In_Stock": "308",
-        "GDI_Purchase_Price": "0",
-        "Inventory_Value": "0",
-        "Weekly_Sales": "0",
-        "Open_Sales_Orders": "0",
-        "Open_Purchase_Orders": "0",
-        "Current_Inventory": "308"
       },
       "calculated_fields": {
         "12m_avg_sales": 0.0,
@@ -353,7 +225,39 @@
       }
     },
     {
-      "product_name": "PILOTX-I5-SNAP (HOVERCAM HCPX-i5 PILOT X , I5 PROCESSOR - SNAP BUY-BACK)",
+      "product_name": "HCPXWT- i5 (HOVERCAM PILOT X TABLET (i5) ONLY)",
+      "base_fields": {
+        "QTY_In_Stock": "205",
+        "GDI_Purchase_Price": "252.41",
+        "Inventory_Value": "51744.05",
+        "Weekly_Sales": "0",
+        "Open_Sales_Orders": "0",
+        "Open_Purchase_Orders": "0",
+        "Current_Inventory": "205"
+      },
+      "calculated_fields": {
+        "12m_avg_sales": 0.2857142857142857,
+        "run_rate": 717.5
+      }
+    },
+    {
+      "product_name": "HCO2 (HOVERCAM ORBIT V2.0)",
+      "base_fields": {
+        "QTY_In_Stock": "766",
+        "GDI_Purchase_Price": "100",
+        "Inventory_Value": "76600",
+        "Weekly_Sales": "1",
+        "Open_Sales_Orders": "0",
+        "Open_Purchase_Orders": "0",
+        "Current_Inventory": "766"
+      },
+      "calculated_fields": {
+        "12m_avg_sales": 34.714285714285715,
+        "run_rate": 22.065843621399175
+      }
+    },
+    {
+      "product_name": "HCO2-SNAP (HOVERCAM ORBIT V2.0 (PATHWAY BUYBACK))",
       "base_fields": {
         "QTY_In_Stock": "0",
         "GDI_Purchase_Price": "252.41",
@@ -369,18 +273,66 @@
       }
     },
     {
-      "product_name": "HCD* (HOVERCAM DUO - 12MP, USB 3.0 & HDMI OUTPUT)",
+      "product_name": "BEAMIO-USBC-SNAP (HOVERCAM \"HCB-USBC\" BEAMIO USBC - SELL BACK)",
       "base_fields": {
         "QTY_In_Stock": "0",
+        "GDI_Purchase_Price": "252.41",
+        "Inventory_Value": "0",
+        "Weekly_Sales": "0",
+        "Open_Sales_Orders": "0",
+        "Open_Purchase_Orders": "0",
+        "Current_Inventory": "0"
+      },
+      "calculated_fields": {
+        "12m_avg_sales": 0.0,
+        "run_rate": 0.0
+      }
+    },
+    {
+      "product_name": "PXP (HOVERCAM PILOT X PODIUM WITHOUT TABLET)",
+      "base_fields": {
+        "QTY_In_Stock": "203",
+        "GDI_Purchase_Price": "252.41",
+        "Inventory_Value": "51239.23",
+        "Weekly_Sales": "0",
+        "Open_Sales_Orders": "4",
+        "Open_Purchase_Orders": "48",
+        "Current_Inventory": "199"
+      },
+      "calculated_fields": {
+        "12m_avg_sales": 0.16666666666666666,
+        "run_rate": 1218.0
+      }
+    },
+    {
+      "product_name": "SOLO8+-SNAP (HOVERCAM HCS8+ BUY BACK)",
+      "base_fields": {
+        "QTY_In_Stock": "0",
+        "GDI_Purchase_Price": "252.41",
+        "Inventory_Value": "0",
+        "Weekly_Sales": "0",
+        "Open_Sales_Orders": "0",
+        "Open_Purchase_Orders": "0",
+        "Current_Inventory": "0"
+      },
+      "calculated_fields": {
+        "12m_avg_sales": 10.0,
+        "run_rate": 0.0
+      }
+    },
+    {
+      "product_name": "PXP B STOCK (HOVERCAM PILOT X PODIUM WITHOUT TABLET - B STOCK)",
+      "base_fields": {
+        "QTY_In_Stock": "31",
         "GDI_Purchase_Price": "0",
         "Inventory_Value": "0",
         "Weekly_Sales": "0",
-        "Open_Sales_Orders": "321",
-        "Open_Purchase_Orders": "1000",
-        "Current_Inventory": "-321"
+        "Open_Sales_Orders": "0",
+        "Open_Purchase_Orders": "0",
+        "Current_Inventory": "31"
       },
       "calculated_fields": {
-        "12m_avg_sales": 39.714285714285715,
+        "12m_avg_sales": 0.0,
         "run_rate": 0.0
       }
     },
@@ -401,19 +353,67 @@
       }
     },
     {
-      "product_name": "SPARK-II-SNAP (HOVERCAM HCSS-II SPARK II BUY BACK)",
+      "product_name": "HCPX-I5 (HOVERCAM PILOT X WL WINDOWS 10 TABLET, I5 PROCESSOR, 4K, 8 GB RAM, 256 G...)",
       "base_fields": {
-        "QTY_In_Stock": "-40",
-        "GDI_Purchase_Price": "100",
-        "Inventory_Value": "-4000",
+        "QTY_In_Stock": "272",
+        "GDI_Purchase_Price": "252.41",
+        "Inventory_Value": "68655.52",
+        "Weekly_Sales": "2",
+        "Open_Sales_Orders": "0",
+        "Open_Purchase_Orders": "0",
+        "Current_Inventory": "272"
+      },
+      "calculated_fields": {
+        "12m_avg_sales": 9.714285714285714,
+        "run_rate": 28.000000000000004
+      }
+    },
+    {
+      "product_name": "eG-S-PO-SNAP (PODIUM FOR EGLASS - BUY BACK)",
+      "base_fields": {
+        "QTY_In_Stock": "0",
+        "GDI_Purchase_Price": "552.42",
+        "Inventory_Value": "0",
         "Weekly_Sales": "0",
         "Open_Sales_Orders": "0",
         "Open_Purchase_Orders": "0",
-        "Current_Inventory": "-40"
+        "Current_Inventory": "0"
       },
       "calculated_fields": {
-        "12m_avg_sales": 6.666666666666667,
-        "run_rate": -6.0
+        "12m_avg_sales": 0.8571428571428571,
+        "run_rate": 0.0
+      }
+    },
+    {
+      "product_name": "BEAMIO-USBC (HOVERCAM HCB BEAMIO USBC - B STOCK)",
+      "base_fields": {
+        "QTY_In_Stock": "308",
+        "GDI_Purchase_Price": "0",
+        "Inventory_Value": "0",
+        "Weekly_Sales": "0",
+        "Open_Sales_Orders": "0",
+        "Open_Purchase_Orders": "0",
+        "Current_Inventory": "308"
+      },
+      "calculated_fields": {
+        "12m_avg_sales": 0.0,
+        "run_rate": 0.0
+      }
+    },
+    {
+      "product_name": "eGLASS-50 (eGlass 50\" GLASS **B-STOCK** (HCeG-50))",
+      "base_fields": {
+        "QTY_In_Stock": "0",
+        "GDI_Purchase_Price": "789.57",
+        "Inventory_Value": "0",
+        "Weekly_Sales": "0",
+        "Open_Sales_Orders": "0",
+        "Open_Purchase_Orders": "0",
+        "Current_Inventory": "0"
+      },
+      "calculated_fields": {
+        "12m_avg_sales": 0.0,
+        "run_rate": 0.0
       }
     }
   ]
