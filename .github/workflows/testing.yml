@@ -1,12 +1,14 @@
 name: Test Config Workflow
 
 on:
-  workflow_dispatch:  # Allows manual triggering
+  workflow_dispatch:  # Enables manual runs from GitHub Actions UI
+  repository_dispatch:  # Allows external triggers (e.g., from Zapier)
+    types: [zapier_trigger]  # Matches the event_type sent from Zapier
 
 jobs:
-  # First Job: Test Workflow
   test-config:
     runs-on: ubuntu-latest
+
     steps:
     - name: Check out the repository
       uses: actions/checkout@v3
@@ -14,19 +16,16 @@ jobs:
     - name: Test Step
       run: echo "This is a test for the test_config.yml workflow"
 
-  # Second Job: Test Google Sheets Script
   test-google-sheets:
     runs-on: ubuntu-latest
+
     steps:
     - name: Check out code
       uses: actions/checkout@v3
 
-    - name: Set environment variable and run script
+    - name: Set environment variable
       env:
         GOOGLE_SHEETS_CREDENTIALS: ${{ secrets.GOOGLE_SHEETS_CREDENTIALS }}
       run: |
-        echo "$GOOGLE_SHEETS_CREDENTIALS" > credentials.json  # Save credentials from secret
-        python -m venv venv  # Create and activate virtual environment
-        source venv/bin/activate
-        pip install google-auth google-auth-oauthlib google-auth-httplib2 google-api-python-client
+        echo "$GOOGLE_SHEETS_CREDENTIALS" > credentials.json
         python read_google_sheets.py
