@@ -3,21 +3,17 @@ import json
 from google.oauth2.service_account import Credentials
 from googleapiclient.discovery import build
 
-# Determine the environment
-environment = os.getenv('ENVIRONMENT', 'local')
+# Write credentials from environment variable into a JSON file
+# with open('credentials.json', 'w') as f:
+#     f.write(os.environ['GOOGLE_SHEETS_CREDENTIALS'])
 
 # Set up Google Sheets API
+SERVICE_ACCOUNT_FILE = 'credentials.json'
 SCOPES = ['https://www.googleapis.com/auth/spreadsheets.readonly']
 
-if environment == 'github_actions':
-    # In GitHub Actions, credentials are provided via environment variable
-    credentials_info = json.loads(os.getenv('GOOGLE_SHEETS_CREDENTIALS'))
-    credentials = Credentials.from_service_account_info(credentials_info, scopes=SCOPES)
-else:
-    # Locally, use the credentials.json file
-    SERVICE_ACCOUNT_FILE = 'credentials.json'
-    credentials = Credentials.from_service_account_file(SERVICE_ACCOUNT_FILE, scopes=SCOPES)
-
+credentials = Credentials.from_service_account_file(
+    SERVICE_ACCOUNT_FILE, scopes=SCOPES
+)
 service = build('sheets', 'v4', credentials=credentials)
 
 # Replace with your actual spreadsheet ID and range
