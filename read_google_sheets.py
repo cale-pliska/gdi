@@ -24,6 +24,9 @@ service = build('sheets', 'v4', credentials=credentials)
 SPREADSHEET_ID = '1fssSPKsK8vsXuqh50WYXOE6l5tT-ila9oXsvwKMS1xs'
 RANGE = 'main!A1:K999'
 
+# Clear the contents of output.json
+open('output.json', 'w').close()
+
 # Read data from Google Sheets
 sheet = service.spreadsheets()
 result = sheet.values().get(spreadsheetId=SPREADSHEET_ID, range=RANGE).execute()
