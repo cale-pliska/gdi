@@ -1,5 +1,8 @@
 name: Fetch and Commit Google Sheets Data
 
+permissions:
+  contents: write
+
 on:
   workflow_dispatch:
   repository_dispatch:
