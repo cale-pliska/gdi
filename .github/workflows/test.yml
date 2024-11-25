@@ -1,0 +1,19 @@
+name: Verify Google Sheets Credentials
+
+on:
+  workflow_dispatch:  # Allows you to manually trigger this workflow
+
+jobs:
+  verify-secret:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Check out the repository
+      uses: actions/checkout@v3
+
+    - name: Verify GOOGLE_SHEETS_CREDENTIALS
+      env:
+        GOOGLE_SHEETS_CREDENTIALS: ${{ secrets.GOOGLE_SHEETS_CREDENTIALS }}
+      run: |
+        echo "$GOOGLE_SHEETS_CREDENTIALS" > test_credentials.json
+        echo "Credentials have been successfully written to test_credentials.json"
