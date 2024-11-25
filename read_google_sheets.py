@@ -18,7 +18,7 @@ service = build('sheets', 'v4', credentials=credentials)
 
 # Replace with your actual spreadsheet ID and range
 SPREADSHEET_ID = '1fssSPKsK8vsXuqh50WYXOE6l5tT-ila9oXsvwKMS1xs'
-RANGE = 'Sheet1!A1:Z100'
+RANGE = 'main!A1:K999'
 
 # Read data from Google Sheets
 sheet = service.spreadsheets()
