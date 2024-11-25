@@ -17,7 +17,7 @@ credentials = Credentials.from_service_account_file(
 service = build('sheets', 'v4', credentials=credentials)
 
 # Replace with your actual spreadsheet ID and range
-SPREADSHEET_ID = 'your_spreadsheet_id'
+SPREADSHEET_ID = '1fssSPKsK8vsXuqh50WYXOE6l5tT-ila9oXsvwKMS1xs'
 RANGE = 'Sheet1!A1:Z100'
 
 # Read data from Google Sheets

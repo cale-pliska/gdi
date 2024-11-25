@@ -1,15 +1,32 @@
 name: Test Config Workflow
 
 on:
-  workflow_dispatch:  # Manual trigger
+  workflow_dispatch:  # Allows manual triggering
 
 jobs:
+  # First Job: Test Workflow
   test-config:
     runs-on: ubuntu-latest
-
     steps:
     - name: Check out the repository
       uses: actions/checkout@v3
 
     - name: Test Step
       run: echo "This is a test for the test_config.yml workflow"
+
+  # Second Job: Test Google Sheets Script
+  test-google-sheets:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Check out code
+      uses: actions/checkout@v3
+
+    - name: Set environment variable and run script
+      env:
+        GOOGLE_SHEETS_CREDENTIALS: ${{ secrets.GOOGLE_SHEETS_CREDENTIALS }}
+      run: |
+        echo "$GOOGLE_SHEETS_CREDENTIALS" > credentials.json  # Save credentials from secret
+        python -m venv venv  # Create and activate virtual environment
+        source venv/bin/activate
+        pip install google-auth google-auth-oauthlib google-auth-httplib2 google-api-python-client
+        python read_google_sheets.py
