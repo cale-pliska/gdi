@@ -35,7 +35,7 @@ jobs:
         run: python read_google_sheets.py
 
       - name: Generate PDF report
-        run: python generate_pdf.py
+        run: python generate_report.py
 
       - name: Configure Git
         run: |
