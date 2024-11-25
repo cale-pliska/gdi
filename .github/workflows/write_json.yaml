@@ -24,7 +24,7 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install google-auth google-auth-oauthlib google-auth-httplib2 google-api-python-client
+          pip install google-auth google-auth-oauthlib google-auth-httplib2 google-api-python-client reportlab
 
       - name: Set up Google Sheets credentials
         env:
@@ -34,6 +34,9 @@ jobs:
       - name: Fetch data from Google Sheets
         run: python read_google_sheets.py
 
+      - name: Generate PDF report
+        run: python generate_pdf.py
+
       - name: Configure Git
         run: |
           git config --global user.name 'github-actions[bot]'
@@ -42,8 +45,9 @@ jobs:
       - name: Commit and push changes if output.json is modified
         run: |
           git add output.json
+          git add Product_Weekly_Data_Report.pdf
           if ! git diff --cached --exit-code; then
-            git commit -m 'Update output.json with latest Google Sheets data'
+            git commit -m 'Update output.json and pdf report with latest Google Sheets data'
             git push
           else
             echo "No changes detected in output.json; skipping commit."
